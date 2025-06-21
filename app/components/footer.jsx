@@ -10,6 +10,7 @@ import GlowCard from "../components/helper/glow-card";
 import { useEffect } from "react";
 import { personalData } from "@/utils/data/personal-data";
 import { FaInstagram } from "react-icons/fa";
+import Image from "next/image";
 
 function Footer() {
   useEffect(() => {

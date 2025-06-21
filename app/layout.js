@@ -12,9 +12,9 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Salman khan ",
+  title: "Dhanin George",
   description:
-    "I'm Salman Khan D — a developer, innovator, and digital creator who turns imagination into interactive reality. Currently pursuing B.Tech in AI & Data Science at Mahendra Engineering College, I specialize in fusing artificial intelligence with full-stack development to build smarter systems and beautiful experiences.I believe tech should empower, not complicate. That's why I've developed everything from AI resume generators and interview bots to IoT-based security and irrigation systems. Whether it's deploying on Vercel, designing with Canva, or fine-tuning models in PyTorch — I move fast, learn faster, and build with heart.",
+    "Portfolio of Dhanin George - Creative Designer & Visual Storyteller.",
   icons: {
     icon: '/favicon.png',
   },
