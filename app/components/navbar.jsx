@@ -78,8 +78,8 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#experience">
-                  <div className="text-sm text-white transition-colors duration-300 hover:text-gray-300">EXPERIENCE</div>
+                <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#creative-journey">
+                  <div className="text-sm text-white transition-colors duration-300 hover:text-gray-300">DESIGN EXPERIENCE</div>
                 </Link>
               </li>
               <li>
@@ -118,8 +118,8 @@ function Navbar() {
           <Link className="block px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white" href="/#about">
             ABOUT
           </Link>
-          <Link className="block px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white" href="/#experience">
-            EXPERIENCE
+          <Link className="block px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white" href="/#creative-journey">
+            CREATIVE JOURNEY
           </Link>
           <Link className="block px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white" href="/#skills">
             SKILLS

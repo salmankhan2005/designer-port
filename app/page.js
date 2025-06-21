@@ -5,6 +5,8 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 import LearningExperience from './components/homepage/courses';
 import ContactForm from './components/homepage/contact/contact-form';
+import EducationSection from "./components/homepage/education";
+import DesignExperienceSection from "./components/homepage/experience";
 
 async function getData() {
   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
@@ -26,6 +28,8 @@ export default async function Home() {
     <div suppressHydrationWarning >
       <HeroSection />
       <AboutSection />
+      <DesignExperienceSection />
+      <EducationSection />
       <Skills />
       <Projects />
       <LearningExperience />

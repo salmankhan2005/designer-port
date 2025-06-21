@@ -53,7 +53,7 @@ function ContactForm() {
   };
 
   return (
-    <section className="w-full flex justify-center items-center py-12 px-2 bg-gradient-to-br from-[#10172d] via-[#181c2a] to-[#232946]">
+    <section id="contact" className="w-full flex justify-center items-center py-12 px-2 bg-gradient-to-br from-[#10172d] via-[#181c2a] to-[#232946]">
       <div className="w-full max-w-4xl bg-gradient-to-br from-[#10172d] via-[#181c2a] to-[#232946] backdrop-blur-lg rounded-3xl shadow-2xl border border-[#16f2b3]/30 flex flex-col md:flex-row overflow-hidden">
         {/* Left: Animation */}
         <div className="md:w-1/2 flex items-center justify-center bg-gradient-to-br from-[#16f2b3]/20 to-[#232946]/60 p-6 md:p-10">

@@ -9,7 +9,7 @@ import { IoStar } from "react-icons/io5";
 import GlowCard from "../components/helper/glow-card";
 import { useEffect } from "react";
 import { personalData } from "@/utils/data/personal-data";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   useEffect(() => {
@@ -58,8 +58,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#experience" className="text-gray-300 hover:text-white transition-colors duration-300">
-                  Design Experience
+                <a href="#creative-journey" className="text-gray-300 hover:text-white transition-colors duration-300">
+                  Creative Journey
                 </a>
               </li>
               <li>
@@ -85,22 +85,9 @@ function Footer() {
             </div>
             
             {/* Social Links */}
-            <div className="flex justify-center lg:justify-start gap-4 mt-4">
-              <a
-                href={personalData.github}
-              target="_blank"
-                rel="noopener noreferrer"
-                className="group p-2 bg-white/10 rounded-full hover:bg-white transition-all duration-300 hover:scale-110"
-              >
-                <BsGithub size={18} className="text-white group-hover:text-black" />
-              </a>
-              <a
-                href={personalData.linkedIn}
-              target="_blank"
-                rel="noopener noreferrer"
-                className="group p-2 bg-white/10 rounded-full hover:bg-gray-300 transition-all duration-300 hover:scale-110"
-              >
-                <BsLinkedin size={18} className="text-white group-hover:text-black" />
+            <div className="flex items-center gap-4 mt-6 justify-center lg:justify-start">
+              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="group p-2 rounded-full bg-white/10 hover:bg-white transition-colors duration-300">
+                <FaInstagram size={18} className="text-white group-hover:text-pink-500" />
               </a>
             </div>
           </div>

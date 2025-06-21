@@ -3,9 +3,7 @@
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { MdDownload } from "react-icons/md";
-import { RiContactsFill } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
 
 function HeroSection() {
   return (
@@ -77,28 +75,16 @@ function HeroSection() {
               >
                 <span className="flex items-center gap-2">
                   Get In Touch
-                  <RiContactsFill size={20} />
                 </span>
               </Link>
             </div>
 
             {/* Social Links */}
-            <div className="flex justify-center lg:justify-start gap-6">
-            <Link
-              href={personalData.github}
-              target='_blank'
-                className="group p-3 bg-white/10 rounded-full transition-all duration-300 hover:bg-white hover:scale-110"
-            >
-                <BsGithub size={24} className="text-white group-hover:text-black" />
-            </Link>
-            <Link
-              href={personalData.linkedIn}
-              target='_blank'
-                className="group p-3 bg-white/10 rounded-full transition-all duration-300 hover:bg-gray-300 hover:scale-110"
-            >
-                <BsLinkedin size={24} className="text-white group-hover:text-black" />
-            </Link>
-          </div>
+            <div className="flex items-center justify-center lg:justify-start gap-4 mt-6">
+              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="group p-2 rounded-full bg-white/10 hover:bg-white transition-colors duration-300">
+                <FaInstagram size={24} className="text-white group-hover:text-pink-500" />
+              </a>
+            </div>
           </div>
 
           {/* Profile Image */}
