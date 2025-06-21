@@ -7,6 +7,7 @@ import LearningExperience from './components/homepage/courses';
 import ContactForm from './components/homepage/contact/contact-form';
 import EducationSection from "./components/homepage/education";
 import DesignExperienceSection from "./components/homepage/experience";
+import Head from 'next/head';
 
 async function getData() {
   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
@@ -25,15 +26,20 @@ async function getData() {
 export default async function Home() {
 
   return (
-    <div suppressHydrationWarning >
-      <HeroSection />
-      <AboutSection />
-      <DesignExperienceSection />
-      <EducationSection />
-      <Skills />
-      <Projects />
-      <LearningExperience />
-      <ContactForm />
-    </div>
+    <>
+      <Head>
+        <title>Dhanin George</title>
+      </Head>
+      <div suppressHydrationWarning >
+        <HeroSection />
+        <AboutSection />
+        <DesignExperienceSection />
+        <EducationSection />
+        <Skills />
+        <Projects />
+        <LearningExperience />
+        <ContactForm />
+      </div>
+    </>
   )
 };

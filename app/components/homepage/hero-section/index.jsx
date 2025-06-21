@@ -81,7 +81,7 @@ function HeroSection() {
 
             {/* Social Links */}
             <div className="flex items-center justify-center lg:justify-start gap-4 mt-6">
-              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="group p-2 rounded-full bg-white/10 hover:bg-white transition-colors duration-300">
+              <a href="https://www.instagram.com/dhanin_designs?igsh=MTg0bHl0ZmRuOTNmOA==" target="_blank" rel="noopener noreferrer" className="group p-2 rounded-full bg-white/10 hover:bg-white transition-colors duration-300">
                 <FaInstagram size={24} className="text-white group-hover:text-pink-500" />
               </a>
             </div>

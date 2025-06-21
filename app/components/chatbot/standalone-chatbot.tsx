@@ -112,7 +112,7 @@ const ChatHeader = ({
 }) => (
   <CardHeader className="border-b border-white/20 p-4 bg-gradient-to-r from-slate-800/50 to-slate-700/50">
     <div className="flex items-center justify-between">
-      <CardTitle className="text-white flex items-center gap-3 text-base font-semibold">
+      <CardTitle className="text-white flex items-center gap-3 text-base font-semibold mb-5">
         <div className="relative">
           <Avatar className="w-12 h-12 border-2 border-white/30">
             <AvatarImage src="/projects/profile/Dhanin George.jpg" alt="Dhanin George" style={{ objectPosition: '15% 50%' }} />
@@ -392,9 +392,9 @@ export default function StandaloneChatbot({
           </div>
 
           {showWelcome && (
-            <div className="absolute bottom-20 left-0 bg-slate-800/95 text-white px-3 py-2 rounded-lg shadow-xl border border-white/30 backdrop-blur-sm animate-bounce">
+            <div className="absolute bottom-20 left-1/2 -translate-x-1/2 bg-slate-800/95 text-white px-3 py-2 rounded-lg shadow-xl border border-white/30 backdrop-blur-sm animate-bounce">
               <div className="text-sm font-medium">👋 Ask me anything!</div>
-              <div className="absolute bottom-0 left-4 transform translate-y-1/2 rotate-45 w-2 h-2 bg-slate-800 border-r border-b border-white/30"></div>
+              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 transform translate-y-1/2 rotate-45 w-2 h-2 bg-slate-800 border-r border-b border-white/30"></div>
             </div>
           )}
         </div>
